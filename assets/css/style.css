@@ -205,6 +205,7 @@
 
 .hearder {
   width: 100% auto;
+  height: 848px;
   background-color: var(--color-black5);
   position: relative;
 }
@@ -221,7 +222,9 @@
   right: 0px;
 }
 
-.heeader_top {
+
+
+.header_top {
   width: 100%;
   height: 113px;
   display: inline-flex;
@@ -233,16 +236,33 @@
 }
 
 .top-bar {
-  width: 100%;
-  height: 59px;
-  border-bottom: 1px solid #e3e3e3;
+    width: 100%;
+    height: 59px;
+    border-bottom: 1px solid #e3e3e3;
+    align-items: flex-start;
+}
+
+.search i {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.logo {
+    gap:10px;
+}
+
+.logo img {
+    width: 31px;
+    height: 15px;
 }
 
 .user {
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: flex-start;
   gap: 22px;
+}
+
+.account, .cart {
+    gap:8px
 }
 
 ul li {
@@ -258,6 +278,7 @@ ul li {
   height: 354px;
   flex-shrink: 0;
   margin-right: 98px;
+  margin-top: -56px;
 }
 
 .banner_image {
@@ -318,6 +339,7 @@ ul li {
 
 .style_gallery {
   position: relative;
+  margin-bottom	: -24px;
 }
 
 .styles_title {
@@ -385,6 +407,7 @@ ul li {
 .subscrible_tile {
   width: 100%;
   height: auto;
+  /* margin-top: -24px; */
 }
 
 .subscrible_header,
@@ -393,6 +416,11 @@ ul li {
   width: 100%;
   height: auto;
 }
+
+.best_seller {
+    margin-top: -24px;
+}
+
 
 .subscrible_menu {
   width: 374px;
@@ -467,7 +495,7 @@ ul li {
   align-items: center;
   gap: 70px;
   background-color: var(--color-black5);
-  margin: 140px 0;
+  margin-bottom: 140px;
 }
 
 .follow_gallery {
@@ -522,7 +550,7 @@ ul li {
 
 .footer {
   width: 100%;
-  height: 323px;
+  height: 303px;
 }
 
 .footer_menu {
@@ -614,6 +642,8 @@ ul li {
   background-color: var(--color-dark);
   justify-content: flex-start;
   position: relative;
+  margin-top: -24px;
+  /* margin-bottom: 24px; */
 }
 
 .brand_banner_frame {
@@ -644,6 +674,7 @@ ul li {
   width: 100%;
   height: auto;
   object-fit: cover;
+  /* gap:10px */
 }
 
 .brand_content span {
